@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D55FFDE0197B6844005E5FB8 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55FFDDE197B6844005E5FB8 /* SCLAlertView.swift */; };
+		D55FFDF7197B8041005E5FB8 /* notification-error.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDF5197B8041005E5FB8 /* notification-error.png */; };
+		D55FFDF8197B8041005E5FB8 /* notification-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDF6197B8041005E5FB8 /* notification-error@2x.png */; };
+		D55FFDFB197B804C005E5FB8 /* notification-success.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDF9197B804C005E5FB8 /* notification-success.png */; };
+		D55FFDFC197B804C005E5FB8 /* notification-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDFA197B804C005E5FB8 /* notification-success@2x.png */; };
+		D55FFDFF197B80BE005E5FB8 /* notification-info.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDFD197B80BE005E5FB8 /* notification-info.png */; };
+		D55FFE00197B80BE005E5FB8 /* notification-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFDFE197B80BE005E5FB8 /* notification-info@2x.png */; };
+		D55FFE03197B80CA005E5FB8 /* notification-notice.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFE01197B80CA005E5FB8 /* notification-notice.png */; };
+		D55FFE04197B80CA005E5FB8 /* notification-notice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFE02197B80CA005E5FB8 /* notification-notice@2x.png */; };
+		D55FFE07197B80D8005E5FB8 /* notification-warning.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFE05197B80D8005E5FB8 /* notification-warning.png */; };
+		D55FFE08197B80D8005E5FB8 /* notification-warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55FFE06197B80D8005E5FB8 /* notification-warning@2x.png */; };
+		D5E5BDC31962706A0092BE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5BDC21962706A0092BE9B /* AppDelegate.swift */; };
+		D5E5BDC51962706A0092BE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5BDC41962706A0092BE9B /* ViewController.swift */; };
+		D5E5BDC81962706A0092BE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E5BDC61962706A0092BE9B /* Main.storyboard */; };
+		D5E5BDCA1962706A0092BE9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E5BDC91962706A0092BE9B /* Images.xcassets */; };
+		D5E5BDD61962706A0092BE9B /* CPF_CNPJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5BDD51962706A0092BE9B /* CPF_CNPJTests.swift */; };
+		D5E5BDE0196270FD0092BE9B /* CPF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5BDDF196270FD0092BE9B /* CPF.swift */; };
+		D5F0C7621980ABAA0003B54C /* CNPJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0C7611980ABAA0003B54C /* CNPJ.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E5BDD01962706A0092BE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E5BDB51962706A0092BE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E5BDBC1962706A0092BE9B;
+			remoteInfo = "CPF-CNPJ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D55FFDDE197B6844005E5FB8 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		D55FFDF5197B8041005E5FB8 /* notification-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-error.png"; sourceTree = "<group>"; };
+		D55FFDF6197B8041005E5FB8 /* notification-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-error@2x.png"; sourceTree = "<group>"; };
+		D55FFDF9197B804C005E5FB8 /* notification-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-success.png"; sourceTree = "<group>"; };
+		D55FFDFA197B804C005E5FB8 /* notification-success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification-success@2x.png"; sourceTree = "<group>"; };
+		D55FFDFD197B80BE005E5FB8 /* notification-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-info.png"; path = "Images.xcassets/notification-info.imageset/notification-info.png"; sourceTree = "<group>"; };
+		D55FFDFE197B80BE005E5FB8 /* notification-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-info@2x.png"; path = "Images.xcassets/notification-info.imageset/notification-info@2x.png"; sourceTree = "<group>"; };
+		D55FFE01197B80CA005E5FB8 /* notification-notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-notice.png"; path = "Images.xcassets/notification-notice.imageset/notification-notice.png"; sourceTree = "<group>"; };
+		D55FFE02197B80CA005E5FB8 /* notification-notice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-notice@2x.png"; path = "Images.xcassets/notification-notice.imageset/notification-notice@2x.png"; sourceTree = "<group>"; };
+		D55FFE05197B80D8005E5FB8 /* notification-warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-warning.png"; path = "Images.xcassets/notification-warning.imageset/notification-warning.png"; sourceTree = "<group>"; };
+		D55FFE06197B80D8005E5FB8 /* notification-warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification-warning@2x.png"; path = "Images.xcassets/notification-warning.imageset/notification-warning@2x.png"; sourceTree = "<group>"; };
+		D5E5BDBD1962706A0092BE9B /* CPF-CNPJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPF-CNPJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E5BDC11962706A0092BE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E5BDC21962706A0092BE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E5BDC41962706A0092BE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E5BDC71962706A0092BE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5E5BDC91962706A0092BE9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5E5BDCF1962706A0092BE9B /* CPF-CNPJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPF-CNPJTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E5BDD41962706A0092BE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E5BDD51962706A0092BE9B /* CPF_CNPJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPF_CNPJTests.swift; sourceTree = "<group>"; };
+		D5E5BDDF196270FD0092BE9B /* CPF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPF.swift; sourceTree = "<group>"; };
+		D5F0C7611980ABAA0003B54C /* CNPJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNPJ.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E5BDBA1962706A0092BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E5BDCC1962706A0092BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D55FFDDC197B6844005E5FB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D55FFDDE197B6844005E5FB8 /* SCLAlertView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5E5BDB41962706A0092BE9B = {
+			isa = PBXGroup;
+			children = (
+				D5E5BDBF1962706A0092BE9B /* CPF-CNPJ */,
+				D5E5BDD21962706A0092BE9B /* CPF-CNPJTests */,
+				D5E5BDBE1962706A0092BE9B /* Products */,
+				E836DBF1F996454698C21876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E5BDBE1962706A0092BE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E5BDBD1962706A0092BE9B /* CPF-CNPJ.app */,
+				D5E5BDCF1962706A0092BE9B /* CPF-CNPJTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E5BDBF1962706A0092BE9B /* CPF-CNPJ */ = {
+			isa = PBXGroup;
+			children = (
+				D55FFDDC197B6844005E5FB8 /* Classes */,
+				D5E5BDDF196270FD0092BE9B /* CPF.swift */,
+				D5F0C7611980ABAA0003B54C /* CNPJ.swift */,
+				D5E5BDC21962706A0092BE9B /* AppDelegate.swift */,
+				D5E5BDC41962706A0092BE9B /* ViewController.swift */,
+				D5E5BDC61962706A0092BE9B /* Main.storyboard */,
+				D5E5BDC91962706A0092BE9B /* Images.xcassets */,
+				D5E5BDC01962706A0092BE9B /* Supporting Files */,
+			);
+			path = "CPF-CNPJ";
+			sourceTree = "<group>";
+		};
+		D5E5BDC01962706A0092BE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D55FFE01197B80CA005E5FB8 /* notification-notice.png */,
+				D55FFE05197B80D8005E5FB8 /* notification-warning.png */,
+				D55FFE06197B80D8005E5FB8 /* notification-warning@2x.png */,
+				D55FFE02197B80CA005E5FB8 /* notification-notice@2x.png */,
+				D55FFDFD197B80BE005E5FB8 /* notification-info.png */,
+				D55FFDFE197B80BE005E5FB8 /* notification-info@2x.png */,
+				D55FFDF9197B804C005E5FB8 /* notification-success.png */,
+				D55FFDFA197B804C005E5FB8 /* notification-success@2x.png */,
+				D55FFDF5197B8041005E5FB8 /* notification-error.png */,
+				D55FFDF6197B8041005E5FB8 /* notification-error@2x.png */,
+				D5E5BDC11962706A0092BE9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5E5BDD21962706A0092BE9B /* CPF-CNPJTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E5BDD51962706A0092BE9B /* CPF_CNPJTests.swift */,
+				D5E5BDD31962706A0092BE9B /* Supporting Files */,
+			);
+			path = "CPF-CNPJTests";
+			sourceTree = "<group>";
+		};
+		D5E5BDD31962706A0092BE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E5BDD41962706A0092BE9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E836DBF1F996454698C21876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E5BDBC1962706A0092BE9B /* CPF-CNPJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E5BDD91962706A0092BE9B /* Build configuration list for PBXNativeTarget "CPF-CNPJ" */;
+			buildPhases = (
+				E2776C9D77A94E239E6DC81B /* Check Pods Manifest.lock */,
+				D5E5BDB91962706A0092BE9B /* Sources */,
+				D5E5BDBA1962706A0092BE9B /* Frameworks */,
+				D5E5BDBB1962706A0092BE9B /* Resources */,
+				4BDA208CEE3244B988AF377A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPF-CNPJ";
+			productName = "CPF-CNPJ";
+			productReference = D5E5BDBD1962706A0092BE9B /* CPF-CNPJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E5BDCE1962706A0092BE9B /* CPF-CNPJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E5BDDC1962706A0092BE9B /* Build configuration list for PBXNativeTarget "CPF-CNPJTests" */;
+			buildPhases = (
+				D5E5BDCB1962706A0092BE9B /* Sources */,
+				D5E5BDCC1962706A0092BE9B /* Frameworks */,
+				D5E5BDCD1962706A0092BE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E5BDD11962706A0092BE9B /* PBXTargetDependency */,
+			);
+			name = "CPF-CNPJTests";
+			productName = "CPF-CNPJTests";
+			productReference = D5E5BDCF1962706A0092BE9B /* CPF-CNPJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E5BDB51962706A0092BE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Lucas Augusto da Silva";
+				TargetAttributes = {
+					D5E5BDBC1962706A0092BE9B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D5E5BDCE1962706A0092BE9B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D5E5BDBC1962706A0092BE9B;
+					};
+				};
+			};
+			buildConfigurationList = D5E5BDB81962706A0092BE9B /* Build configuration list for PBXProject "CPF-CNPJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E5BDB41962706A0092BE9B;
+			productRefGroup = D5E5BDBE1962706A0092BE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E5BDBC1962706A0092BE9B /* CPF-CNPJ */,
+				D5E5BDCE1962706A0092BE9B /* CPF-CNPJTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E5BDBB1962706A0092BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55FFDF8197B8041005E5FB8 /* notification-error@2x.png in Resources */,
+				D55FFDFF197B80BE005E5FB8 /* notification-info.png in Resources */,
+				D55FFE08197B80D8005E5FB8 /* notification-warning@2x.png in Resources */,
+				D55FFDFC197B804C005E5FB8 /* notification-success@2x.png in Resources */,
+				D55FFE07197B80D8005E5FB8 /* notification-warning.png in Resources */,
+				D55FFDF7197B8041005E5FB8 /* notification-error.png in Resources */,
+				D55FFDFB197B804C005E5FB8 /* notification-success.png in Resources */,
+				D55FFE00197B80BE005E5FB8 /* notification-info@2x.png in Resources */,
+				D5E5BDC81962706A0092BE9B /* Main.storyboard in Resources */,
+				D55FFE04197B80CA005E5FB8 /* notification-notice@2x.png in Resources */,
+				D5E5BDCA1962706A0092BE9B /* Images.xcassets in Resources */,
+				D55FFE03197B80CA005E5FB8 /* notification-notice.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E5BDCD1962706A0092BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BDA208CEE3244B988AF377A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		E2776C9D77A94E239E6DC81B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E5BDB91962706A0092BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F0C7621980ABAA0003B54C /* CNPJ.swift in Sources */,
+				D5E5BDC51962706A0092BE9B /* ViewController.swift in Sources */,
+				D5E5BDC31962706A0092BE9B /* AppDelegate.swift in Sources */,
+				D55FFDE0197B6844005E5FB8 /* SCLAlertView.swift in Sources */,
+				D5E5BDE0196270FD0092BE9B /* CPF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E5BDCB1962706A0092BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E5BDD61962706A0092BE9B /* CPF_CNPJTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E5BDD11962706A0092BE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E5BDBC1962706A0092BE9B /* CPF-CNPJ */;
+			targetProxy = D5E5BDD01962706A0092BE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E5BDC61962706A0092BE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E5BDC71962706A0092BE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E5BDD71962706A0092BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E5BDD81962706A0092BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E5BDDA1962706A0092BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CPF-CNPJ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5E5BDDB1962706A0092BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CPF-CNPJ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5E5BDDD1962706A0092BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPF-CNPJ.app/CPF-CNPJ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CPF-CNPJTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D5E5BDDE1962706A0092BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPF-CNPJ.app/CPF-CNPJ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CPF-CNPJTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E5BDB81962706A0092BE9B /* Build configuration list for PBXProject "CPF-CNPJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E5BDD71962706A0092BE9B /* Debug */,
+				D5E5BDD81962706A0092BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E5BDD91962706A0092BE9B /* Build configuration list for PBXNativeTarget "CPF-CNPJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E5BDDA1962706A0092BE9B /* Debug */,
+				D5E5BDDB1962706A0092BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E5BDDC1962706A0092BE9B /* Build configuration list for PBXNativeTarget "CPF-CNPJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E5BDDD1962706A0092BE9B /* Debug */,
+				D5E5BDDE1962706A0092BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E5BDB51962706A0092BE9B /* Project object */;
+}
